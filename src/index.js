@@ -1,5 +1,6 @@
-import './'
+// import './'
+import './Observables/async'
 
 document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('title').innerHTML = ''
+  document.getElementById('title').innerHTML = 'AsyncProgramming'
 })

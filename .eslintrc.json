@@ -12,5 +12,6 @@
         "sourceType": "module"
     },
     "rules": {
+        "node/no-callback-literal": "off"
     }
 }
