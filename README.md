@@ -13,3 +13,10 @@
 > of(1, 2, 3, 4)
 
 -   takes any number of arguments
+
+### INTERVAL
+
+>
+
+-   in JavaScript setTimeout() and setInterval() execute a callback
+-   the rxjs equivalent creates an observable stream on an interval or timer
