@@ -1,5 +1,6 @@
-import './'
+// import './'
+import './Creators/fromOf'
 
 document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('title').innerHTML = ''
+  document.getElementById('title').innerHTML = 'Creators'
 })
