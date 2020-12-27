@@ -23,7 +23,7 @@
 | startWith      | Allows you to set an initial value                                      |
 | skip           | Omit values from the array                                              |
 | throttle       | Allows you to sample data from a stream over time                       |
-| debounce       |                                                                         |
+| debounce       | Emits a value from an Observable after a time span has elapsed          |
 | reduce         |                                                                         |
 | mergeAll       |                                                                         |
 
@@ -40,3 +40,8 @@
 -   takeWhile()
 -   takeUntil()
 -   takeLast()
+
+### DEBOUNCE
+
+-   debounce()
+-   debounceTime()
