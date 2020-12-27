@@ -22,7 +22,7 @@
 | last           | Takes only the last item in the array; functions as a de facto complete |
 | startWith      | Allows you to set an initial value                                      |
 | skip           | Omit values from the array                                              |
-| throttle       |                                                                         |
+| throttle       | Allows you to sample data from a stream over time                       |
 | debounce       |                                                                         |
 | reduce         |                                                                         |
 | mergeAll       |                                                                         |
