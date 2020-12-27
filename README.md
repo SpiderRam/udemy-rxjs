@@ -16,13 +16,13 @@
 | combineLatest    |                                                                                                            |
 | concatAll        |                                                                                                            |
 
-| Others of note | Functionality |
-| -------------- | ------------- |
-| first          |               |
-| last           |               |
-| startWith      |               |
-| skip           |               |
-| throttle       |               |
-| debounce       |               |
-| reduce         |               |
-| mergeAll       |               |
+| Others of note | Functionality                                                           |
+| -------------- | ----------------------------------------------------------------------- |
+| first          | Takes only the first item in the array                                  |
+| last           | Takes only the last item in the array; functions as a de facto complete |
+| startWith      | Allows you to set an initial value                                      |
+| skip           |                                                                         |
+| throttle       |                                                                         |
+| debounce       |                                                                         |
+| reduce         |                                                                         |
+| mergeAll       |                                                                         |
