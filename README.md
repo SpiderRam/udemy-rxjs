@@ -14,7 +14,7 @@
 | merge            | Merges multiple streams together, emitting values in blended order                                        |
 | concat           | Emits the values of multiple streams, in sequential order                                                 |
 | combineLatest    | Emits the most recent value from each of the given Observables, whenever all exist and any one updates    |
-| concatAll        |                                                                                                           |
+| concatAll        | Similar to concat, but works on nested Observables                                                        |
 
 | Others of note | Functionality                                                                                                       |
 | -------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -25,7 +25,7 @@
 | throttle       | Allows you to sample data from a stream over time                                                                   |
 | debounce       | Emits a value from an Observable after a time span has elapsed                                                      |
 | reduce         | Similar to scan: combines the accumulated values emitted by the source, returns a value every time the source emits |
-| mergeAll       |                                                                                                                     |
+| mergeAll       | Similar to merge, but works on nested Observables                                                                   |
 | concatMap      | Takes one observable and maps it to another, after the first one completes                                          |
 
 ### SKIP

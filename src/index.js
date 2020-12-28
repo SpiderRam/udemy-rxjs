@@ -8,7 +8,8 @@
 // import './Operators/throttle'
 // import './Operators/debounce'
 // import './Operators/scanReduce'
-import './Operators/mergeConcatCombineLatest'
+// import './Operators/mergeConcatCombineLatest'
+import './Operators/concatAllMergeAll'
 
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('title').innerHTML = 'Operators'
