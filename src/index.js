@@ -7,7 +7,8 @@
 // import './Operators/take'
 // import './Operators/throttle'
 // import './Operators/debounce'
-import './Operators/scanReduce'
+// import './Operators/scanReduce'
+import './Operators/mergeConcatCombineLatest'
 
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('title').innerHTML = 'Operators'

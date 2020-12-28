@@ -2,19 +2,19 @@
 
 ## Operators
 
-| Most recommended | Functionality                                                                               |
-| ---------------- | ------------------------------------------------------------------------------------------- |
-| tap              | Tap into the stream and extract value without changing anything                             |
-| map              | Effectively the same as JavaScript map()                                                    |
-| filter           | Effectively the same as JavaScript filter()                                                 |
-| pluck            | Extract a value from nested json objects                                                    |
-| take             | Specify the indices from a given array that you want to take before completing              |
-| debounceTime     |                                                                                             |
-| scan             | Similar to reduce: combines all values emitted by the source, returns when source completes |
-| merge            |                                                                                             |
-| concat           |                                                                                             |
-| combineLatest    |                                                                                             |
-| concatAll        |                                                                                             |
+| Most recommended | Functionality                                                                                             |
+| ---------------- | --------------------------------------------------------------------------------------------------------- |
+| tap              | Tap into the stream and extract value without changing anything                                           |
+| map              | Effectively the same as JavaScript map()                                                                  |
+| filter           | Effectively the same as JavaScript filter()                                                               |
+| pluck            | Extract a value from nested json objects                                                                  |
+| take             | Specify the indices from a given array that you want to take before completing                            |
+| debounceTime     | Delays the emission of values from an Observable by given time, and omits those that occur too frequently |
+| scan             | Similar to reduce: combines all values emitted by the source, returns when source completes               |
+| merge            | Merges multiple streams together, emitting values in blended order                                        |
+| concat           | Emits the values of multiple streams, in sequential order                                                 |
+| combineLatest    | Emits the most recent value from each of the given Observables, whenever all exist and any one updates    |
+| concatAll        |                                                                                                           |
 
 | Others of note | Functionality                                                                                                       |
 | -------------- | ------------------------------------------------------------------------------------------------------------------- |
