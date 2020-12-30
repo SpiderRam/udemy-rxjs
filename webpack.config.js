@@ -5,6 +5,13 @@ module.exports = {
   devServer: {
     contentBase: './dist'
   },
+  module: {
+    rules: [
+      {
+        use: ['source-map-loader']
+      }
+    ]
+  },
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
